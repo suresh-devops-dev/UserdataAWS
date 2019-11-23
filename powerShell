@@ -1,0 +1,1 @@
+"Copy-S3Object -BucketName aws-scripts-powershell -KeyPrefix * -LocalFolder C:\\Desktop -AccessKey AKIA2DXSEFA4U5IWNSLB -SecretKey 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"
