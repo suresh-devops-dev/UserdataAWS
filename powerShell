@@ -1,1 +1,8 @@
 "Copy-S3Object -BucketName aws-scripts-powershell -KeyPrefix * -LocalFolder C:\\Desktop -AccessKey xxxxx -SecretKey xxxx"
+
+
+===================
+Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
+choco install googlechrome --yes
+choco install jre8 --version=8.0.151 --yes
+choco install git --yes
