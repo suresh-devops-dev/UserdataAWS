@@ -1,4 +1,8 @@
 "Copy-S3Object -BucketName aws-scripts-powershell -KeyPrefix * -LocalFolder C:\\Desktop -AccessKey xxxxx -SecretKey xxxx"
+---
+if IAM role attached
+
+Copy-S3Object -BucketName aws-scripts-powershell -KeyPrefix *  -LocalFolder C:\Users\Administrator\Desktop\test
 
 
 ===================
